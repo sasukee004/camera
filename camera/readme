@@ -1,0 +1,17 @@
+step 1 :- enable raspberry pi camera by using raspberry pi software congiguration tool
+pi@raspberrypi:-$ sudo raspi.config
+ 
+step 2 :- select interfacing options -> camera -> enable
+ 
+step 3 :- after this reboot the system, using sudo reboot command
+pi@raspberrypi:-$sudo reboot
+ 
+step 4 :- create a folder which is used to store pictures captured by Pi Camera.
+ 
+step 5 :- Write a Python Script to capture images and save them in folder.
+ 
+step 6 :- install pi-camera packages.
+sudo apt-get install python-picamera
+sudo apt-get install python3-picamera
+sudo pip install picamera
+ 
